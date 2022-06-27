@@ -2,7 +2,9 @@ package epi.ch4_primitives;
 
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
-
+/**
+ * <title>sec4.2 비트 스왑</title>
+ */
 public class SwapBits {
 
     /* step11) 스스로 생각해보기, O(1)*/
