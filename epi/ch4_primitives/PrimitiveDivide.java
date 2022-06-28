@@ -1,9 +1,9 @@
-package epi;
+package epi.ch4_primitives;
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
-public class PrimitiveMultiply {
-  @EpiTest(testDataFile = "primitive_multiply.tsv")
-  public static long multiply(long x, long y) {
+public class PrimitiveDivide {
+  @EpiTest(testDataFile = "primitive_divide.tsv")
+  public static int divide(int x, int y) {
     // TODO - you fill in here.
     return 0;
   }
@@ -11,7 +11,7 @@ public class PrimitiveMultiply {
   public static void main(String[] args) {
     System.exit(
         GenericTest
-            .runFromAnnotations(args, "PrimitiveMultiply.java",
+            .runFromAnnotations(args, "PrimitiveDivide.java",
                                 new Object() {}.getClass().getEnclosingClass())
             .ordinal());
   }
