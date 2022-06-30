@@ -12,6 +12,13 @@ import epi.test_framework.GenericTest;
  * @ref 노션_망각주기_비트연산정리
  */
 public class PrimitiveDivide {
+
+    /**
+     * @time-complexity O(n), n은 x/y 결과값의 길이
+     * @param x
+     * @param y
+     * @return
+     */
     @EpiTest(testDataFile = "primitive_divide.tsv")
     public static int divide(int x, int y) {
         // TODO - you fill in here.
@@ -20,7 +27,7 @@ public class PrimitiveDivide {
         /* overflow 방지 */
         long y_max = y << k; // y* 2^32
         while (x >= y) {
-            /* y*2^k <= x 를 만족하는 k를 계산 */
+            /* y*2^k <= x 를 만족하는 가장 큰 k를 먼저 계산 */
             while(y_max > x){
                 y_max >>>= 1;
                 --k;
