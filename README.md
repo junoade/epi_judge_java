@@ -24,20 +24,22 @@ Element of Programming Interview in Java 스터디
 - 한번에 다 하려 하기 보다는 점진적으로 나아가자.
 
 ## 주차별 학습
-### Week1 (6월 22일 ~ 6월 28일)
-    - Primitive Types 주요 개념 / 문제 풀이 (4.1 ~ 4.8)
-    - Arrays 주요 개념 / 문제 풀이 (5.1 ~ 5.7)
-### Week2 ( 6월 29일 ~ 7월 5일) 예정
-    - Strings 주요 개념 / 문제 풀이(6.1 ~ 6.9)
+### Week1 (6월 22일 ~ 7월 2일)
+    - Primitive Types 주요 개념 / 문제 풀이 (4.1 ~ 4.7)
+    - Arrays 주요 개념 복습
+    
+### Week2 ( 7월 3일 ~ 7월 9일) 예정
+    - Arrays 문제 풀이 (5.1 ~ 5.2)
+    - Strings 주요 개념 / 문제 풀이(6.1 ~ 6.3)
     - LinkedList 주요 개념 / 문제 풀이(7.1 ~ 7.4)
-    - Primitive Type 문제 풀이 (4.9 ~ 4.11) 1st pass
-    - Arrays 문제 풀이 (5.8 ~ 5.12)
+    - Primitive Type 문제 풀이 (4.8 ~ 4.9) 
+   
 
 
 ## 학습 목차
 ### 자료구조와 알고리즘 관련 
 #### 4. Primitive Types (Week1)
-    4.1 Computing the parity of a word
+    4.1 Computing the parity of a word 
     4.2 Swap Bits
     4.3 Reverse bits
     4.4 Find a closest integer with the same weight
