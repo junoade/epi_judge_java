@@ -1,4 +1,4 @@
-package epi;
+package epi.ch5_arrays;
 import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
