@@ -8,7 +8,8 @@ import epi.test_framework.GenericTest;
 public class SwapBits {
 
     /* step11) 스스로 생각해보기, O(1)*/
-    public static long my_way_swap(long x, short i, short j){
+    // @EpiTest(testDataFile = "swap_bits.tsv")
+    public static long swapBits_my(long x, int i, int j){
         // Shift 연산과 플래그를 활용해서,
         // i에 해당하는 값,
         // j에 해당하는 값을 얻어 오고, swap
